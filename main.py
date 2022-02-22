@@ -1,7 +1,7 @@
-#9.1 uzd
-#Artūrs Kalniņš
-a = int(input("Ievadiet skaitli: "))
-b = a*a
-c = a*a*a 
-d = a*a*a*a*a
-print(b,c,d)#9.1 uzd
+#9.2 uzd
+sar1=[4, 1, 2, 1, 9, 12]
+summa1=0
+for elem in sar1:
+  if elem%2 !=0:
+    summa1+=elem
+print("Nepāru skaitļu summa=", summa1)
